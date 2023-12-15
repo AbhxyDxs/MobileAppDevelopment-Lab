@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/b1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:backgroundTint="#B388FF"
+            android:text="BUTTON 1">
+        </com.google.android.material.button.MaterialButton>
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/b2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:backgroundTint="#B388FF"
+            android:text="BUTTON 2">
+        </com.google.android.material.button.MaterialButton>
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/b3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:backgroundTint="#B388FF"
+            android:text="BUTTON 3">
+        </com.google.android.material.button.MaterialButton>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TEXT 1"
+            android:textStyle="bold"
+            android:textSize="25dp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TEXT 2"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:textSize="25dp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TEXT 3"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:textSize="25dp">
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="10dp"
+            android:background="#FF8A80">
+        </TextView>
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="250dp"
+            android:layout_marginHorizontal="10dp"
+            android:background="#FF80AB">
+        </TextView>
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="200dp"
+            android:layout_marginHorizontal="10dp"
+            android:background="#EA80FC">
+        </TextView>
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="150dp"
+            android:layout_marginHorizontal="10dp"
+            android:background="#B388FF">
+        </TextView>
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="100dp"
+            android:layout_marginHorizontal="10dp"
+            android:background="#8C9EFF">
+        </TextView>
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:layout_marginHorizontal="10dp"
+            android:background="#82B1FF">
+        </TextView>
+
+    </LinearLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/nextB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="NEXT"
+        android:backgroundTint="#82B1FF">
+
+    </com.google.android.material.button.MaterialButton>
+
+</LinearLayout>
