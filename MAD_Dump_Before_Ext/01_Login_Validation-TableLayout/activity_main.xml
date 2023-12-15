@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="#1C1B1B">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp">
+        <TableRow
+            android:gravity="center_horizontal">
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="LOGIN PAGE"
+                android:textStyle="bold"
+                android:textColor="#8C9EFF"
+                android:textSize="25dp"
+                android:layout_marginBottom="30dp">
+            </TextView>
+        </TableRow>
+        <TableRow
+            android:gravity="center_horizontal">
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="USER NAME :"
+                android:textColor="#8C9EFF"
+                android:textStyle="bold"
+                >
+            </TextView>
+            <EditText
+                android:id="@+id/uname"
+                android:layout_height="wrap_content"
+                android:layout_width="200dp"
+                android:hint="USERNAME"
+                android:textColor="#82B1FF">
+            </EditText>
+        </TableRow>
+        <TableRow
+            android:gravity="center_horizontal">
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="PASSWORD :"
+                android:textStyle="bold"
+                android:textColor="#8C9EFF">
+            </TextView>
+            <EditText
+                android:id="@+id/pword"
+                android:layout_height="wrap_content"
+                android:layout_width="200dp"
+                android:hint="PASSWORD"
+                android:textColor="#82B1FF">
+            </EditText>
+        </TableRow>
+        <TableRow
+            android:gravity="center_horizontal">
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/loginB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="LOGIN"
+                android:layout_marginTop="30dp"
+                android:backgroundTint="#8C9EFF">
+            </com.google.android.material.button.MaterialButton>
+        </TableRow>
+    </TableLayout>
+
+
+</LinearLayout>
