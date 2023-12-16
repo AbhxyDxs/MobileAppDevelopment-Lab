@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#171616"
+    android:gravity="center"
+    tools:context=".LoggedPage">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome"
+        android:textAllCaps="true"
+        android:textColor="#8C9EFF"
+        android:textSize="30dp">
+    </TextView>
+    <TextView
+        android:id="@+id/UserTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="50dp"
+        android:textColor="#82B1FF"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:text="Name">
+    </TextView>
+
+</LinearLayout>
