@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:text="PROFILE" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp">
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BANK DETAILS"
+                android:layout_marginBottom="30dp"
+                android:textStyle="bold"
+                android:textSize="20dp"/>
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="USER ID : "
+                android:textSize="20dp"/>
+            <TextView
+                android:id="@+id/UID_TV"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:hint="User ID"
+                android:textSize="20dp"/>
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:gravity="center_horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BALANCE : "
+                android:textSize="30dp"/>
+            <TextView
+                android:id="@+id/Bal_TV"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:hint="Balance"
+                android:textSize="30dp"/>
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+            <Button
+                android:id="@+id/DepositB"
+                android:layout_marginTop="50dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DEPOSIT"
+                android:textSize="20dp"/>
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+            <Button
+                android:id="@+id/WithdrawB"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="WITHDRAW"
+                android:textSize="20dp"/>
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>
